@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 745
+  Height = 304
+  Top = 361
+  Width = 541
+  Caption = 'Form1'
+  ClientHeight = 304
+  ClientWidth = 541
+  LCLVersion = '2.2.6.0'
+  object btnStart: TButton
+    Left = 16
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Start'
+    OnClick = btnStartClick
+    TabOrder = 0
+  end
+  object edtTest: TEdit
+    Left = 16
+    Height = 36
+    Top = 80
+    Width = 376
+    TabOrder = 1
+  end
+  object btnBerechnen: TButton
+    Left = 16
+    Height = 25
+    Top = 128
+    Width = 112
+    Caption = 'Berechnen'
+    OnClick = btnBerechnenClick
+    TabOrder = 2
+  end
+  object edtFaktor1: TEdit
+    Left = 16
+    Height = 36
+    Top = 160
+    Width = 40
+    TabOrder = 3
+  end
+  object edtFaktor2: TEdit
+    Left = 80
+    Height = 36
+    Top = 160
+    Width = 40
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 64
+    Height = 19
+    Top = 169
+    Width = 8
+    Caption = 'X'
+    ParentColor = False
+  end
+end
