@@ -1,5 +1,5 @@
 # LazDemo
-Beispiele für die Programmierung mit Lazaus/FreePascal
+Beispiele für die Programmierung mit Lazaus/FreePascal  (LinuxWelt 05/2023).
 
 **Infos:**
 Lazarus: www.lazarus-ide.org
