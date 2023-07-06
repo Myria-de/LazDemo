@@ -10,7 +10,7 @@ sudo apt install make binutils build-essential gdb subversion zip unzip libx11-d
 ```
 Dann Lazarus/Free Pascal mit fpcupdeluxe installieren.
 ## Erste Schritte in Lazarus
-Siehe 
+Siehe Projekt im Ordner "HelloWorld"
 ```
 procedure TForm1.btnStartClick(Sender: TObject);
 begin
@@ -18,6 +18,7 @@ edtTest.Text:='Hallo Welt';
 end;
 ```
 ## Das einfache Beispiel erweitern
+Siehe Projekt im Ordner "HelloWorld"
 ```
 edtTest.Text:=multiplizieren(edtFaktor1.Text, edtFaktor2.Text);
 ```
@@ -29,10 +30,16 @@ Result:= IntToStr(StrToInt(A) * StrToInt(B));
 end;
 ```
 **Benutzerfehler vermeiden:**
+Siehe Projekt im Ordner "HelloWorld"
 ```
+procedure TForm1.btnBerechnenClick(Sender: TObject);
+// Variablen deklarieren
 var n: Integer;
+begin      
+var n: Integer;
+[...]
 ```
-
+Eingaben prüfen:
 ```
 If TryStrToInt(edtFaktor1.Text,n) AND TryStrToInt(edtFaktor2.Text,n) 
 Then
@@ -41,11 +48,15 @@ else
 ShowMessage('Sie müssen zwei ganze Zahlen eingeben');
 ```
 ## Kommandozeilentools über Lazarus starten
+Siehe Projekt im Ordner "Frontend-Demo"
+
 Allgemein: Erfolg:=RunCommand([Kommandozeile],[Ausgabevariable]); 
 ```
 Success:=RunCommand(edtExecutable.Text,RunParams,outp,[poUsePipes,poStderrToOutput]);
 ```
 ## Start externer Programme optimieren
+Siehe Projekt im Ordner "Frontend-Demo-Thread"
+
 Das Beispielprogramm Frontend-Demo-Threads zeigt die Verwendung. Der Programmcode besteht hauptsächlich aus den vier Zeilen
 ```
 Proc := TExternalTool.Create(nil);
