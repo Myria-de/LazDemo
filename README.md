@@ -49,12 +49,9 @@ Proc := TExternalTool.Create(nil);
 Proc.Executable:=edtExecutable.Text;
 Proc.CmdLineParams:= edtParameters.Text;
 Proc.ExecuteAndWait;
+```
 Das Unterprogramm „HandleInfo“ gibt die Meldungen des Programms fortlaufen aus, über die Schaltfläche „Stop“ kann man das externe Tool mit
 ```
 Proc.Terminate;
 ```
 beenden.
-
-
-
-
