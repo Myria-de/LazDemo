@@ -4,10 +4,13 @@ Beispiele für die Programmierung mit Lazaus/FreePascal
 Lazarus/Free Pascal installieren: https://github.com/LongDirtyAnimAlf/fpcupdeluxe/releases
 
 ## Entwicklungsumgebung Lazarus einrichten
+Nötige Pakete für die Entwicklungsumgebung installieren:
 ```
 sudo apt install make binutils build-essential gdb subversion zip unzip libx11-dev libgtk2.0-dev libgdk-pixbuf2.0-dev libcairo2-dev libpango1.0-dev git freeglut3-dev
 ```
+Dann Lazarus/Free Pascal mit fpcupdeluxe installieren.
 ## Erste Schritte in Lazarus
+Siehe 
 ```
 procedure TForm1.btnStartClick(Sender: TObject);
 begin
