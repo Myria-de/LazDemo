@@ -8,7 +8,7 @@ Free Pascal (FPC): www.freepascal.org
 
 Lazarus/Free Pascal installieren: https://github.com/LongDirtyAnimAlf/fpcupdeluxe/releases
 
-**Bitte beachten Sie:** Während der Entwicklung ist in Lazarus der Debugger aktiv. Es lassen sich Haltepunkte setzen und Variablen prüfen. Ist die Entwicklung abgeschlossen, gehen Sie auf "Projekt -> Projekteinstellungen" und dann unter "Compilereinstellungen" auf "Debugger". Entfernen Sie das Häkchen vor "Generate info for the debugger". Erstellen Sie das Programm über "Start -> Neu kompilieren" neu. Die Größe der ausführbaren Datei wird dadurch deutlich reduziert.
+**Bitte beachten Sie:** Während der Entwicklung ist in Lazarus der Debugger aktiv. Es lassen sich Haltepunkte setzen und Variablen prüfen (siehe https://wiki.freepascal.org/IDE_Window:_Breakpoints). Ist die Entwicklung abgeschlossen, gehen Sie auf "Projekt -> Projekteinstellungen" und dann unter "Compilereinstellungen" auf "Debugger". Entfernen Sie das Häkchen vor "Generate info for the debugger". Erstellen Sie das Programm über "Start -> Neu kompilieren" neu. Die Größe der ausführbaren Datei wird dadurch deutlich reduziert.
 
 ## Entwicklungsumgebung Lazarus einrichten
 Nötige Pakete für die Entwicklungsumgebung installieren:
